@@ -33,6 +33,16 @@ export const siteConfig = {
       ],
     },
     {
+      company: "Standard Chartered Bank, Singapore",
+      title: "Lead Architect",
+      dateRange: "Jun 2023 - Jun 2024",
+      bullets: [
+        "High Level and Low Level architecture design/review/approving for internal Unified Communication systems.",
+        "Working with Engineering team to test, proof of concept, automate and optimize project delivery.",
+        "Technology involved: Microsoft Teams Room, Skype for Business, Zoom, Avaya, Gensys Contact Center, Microsoft Stream, Teams Webinar, Jabra,  Microsoft Certificate Authority, Active Directory, VMware, Syslog",
+      ],
+    },
+    {
       company: "Infosys iCompaz Pte Ltd, Singapore",
       title: "Senior Consultant",
       dateRange: "Aug 2022 - May 2023",
