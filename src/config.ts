@@ -10,7 +10,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Currently MSc student in Artificial Intelligence Systems at EPITA, France, with 16 years of industry experience in Singapore across Cybersecurity, VoIP infrastructure, and enterprise systems. Seeking an internship or full-time opportunity to apply my technical skills and contribute to organizational success.",
-  skills: ["Deep Learning", "Unsupervised Learning", "ML Modeling", "Data Science", "Python", "Java", "C++", "PowerShell", "VBA", "AWS", "Azure", "Docker", "PostgreSQL", "MS SQL", "MongoDB", "Neo4j", "Oracle", "Splunk", "Power BI","AWS", "Docker", "Firewall", "Network Routing", "Vmware", "HyperV", "Load Balancer", "Certificate Authority", "DHCP", "DNS", "VPN", "IIS", "SMTP", "System Administration", "Problem Solving", "Critical Thinking", "Team work"],
+  skills: ["Deep Learning", "Unsupervised Learning", "ML Modeling", "Data Science", "Spark", "Python", "Java", "C++", "PowerShell", "VBA", "AWS", "Azure", "Docker", "PostgreSQL", "MS SQL", "MongoDB", "Neo4j", "Oracle", "Splunk", "Power BI","Airflows", "Docker", "Firewall", "Network Routing", "Vmware", "HyperV", "Load Balancer", "Certificate Authority", "DHCP", "DNS", "VPN", "IIS", "SMTP", "System Administration", "Problem Solving", "Critical Thinking", "Team work"],
   projects: [
     {
       name: "Energy Production Prediction",
