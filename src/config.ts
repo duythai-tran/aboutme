@@ -10,12 +10,12 @@ export const siteConfig = {
   },
   aboutMe:
     "Currently MSc student in Artificial Intelligence Systems at EPITA, France, with 16 years of industry experience in Singapore across Cybersecurity, VoIP infrastructure, and enterprise systems. Seeking an internship or full-time opportunity to apply my technical skills and contribute to organizational success.",
-  skills: ["Deep Learning", "Unsupervised Learning", "ML Modeling", "Data Science", "Spark", "Python", "Java", "C++", "PowerShell", "VBA", "AWS", "Azure", "Docker", "Airflow", "PostgreSQL", "MS SQL", "MongoDB", "Neo4j", "Oracle", "Splunk", "Power BI", "Firewall", "Network Routing", "Vmware", "HyperV", "Load Balancer", "Certificate Authority", "DHCP", "DNS", "VPN", "IIS", "SMTP", "System Administration", "Problem Solving", "Critical Thinking", "Team work"],
+  skills: ["Deep Learning", "Unsupervised Learning", "ML Modeling", "Data Science", "RAG", "MCP", "Gradio", "FAISS", "NodeJS", "Spark", "Python", "Java", "C++", "PowerShell", "VBA", "AWS", "Azure", "Docker", "Airflow", "PostgreSQL", "MS SQL", "MongoDB", "Neo4j", "Oracle", "Splunk", "Power BI", "Firewall", "Network Routing", "Vmware", "HyperV", "Load Balancer", "Certificate Authority", "DHCP", "DNS", "VPN", "IIS", "SMTP", "System Administration", "Problem Solving", "Critical Thinking", "Team work"],
   projects: [
     {
       name: "Multi-agent RAG for Emergency Response instruction",
       description:
-        "Built a multi-agent Retrieval-Augmented Generation (RAG) system that answers questions related to Emergency Response using both internal knowledge and real-time web data. PDF documents are indexed in a FAISS vector store, enabling a first agent to retrieve relevant information and generate grounded responses. A second agent enriches the answers through web search, while a third agent combines both outputs into a more complete final response. The system was integrated with WhatsApp so users can ask questions and get responses directly through chat. Including a dashboard to monitor agent performance and inference cost.",
+        "Built a multi-agent Retrieval-Augmented Generation (RAG) system, a chatbot that answers questions related to Emergency Response using both internal knowledge and real-time web data. PDF documents are indexed in a FAISS vector store, enabling a first agent to retrieve relevant information and generate grounded responses. A second agent enriches the answers through web search, while a third agent combines both outputs into a more complete final response. The system was integrated with WhatsApp so users can ask questions and get responses directly through chat. Including a dashboard to monitor agent performance and inference cost.",
       link: "",      skills: ["Python", "RAG", "fastMCP", "LLM (gpt-4o-mini)", "FAISS", "Nodejs", "Gradio"],
     },  
     {
