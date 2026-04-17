@@ -13,6 +13,12 @@ export const siteConfig = {
   skills: ["Deep Learning", "Unsupervised Learning", "ML Modeling", "Data Science", "Spark", "Python", "Java", "C++", "PowerShell", "VBA", "AWS", "Azure", "Docker", "Airflow", "PostgreSQL", "MS SQL", "MongoDB", "Neo4j", "Oracle", "Splunk", "Power BI", "Firewall", "Network Routing", "Vmware", "HyperV", "Load Balancer", "Certificate Authority", "DHCP", "DNS", "VPN", "IIS", "SMTP", "System Administration", "Problem Solving", "Critical Thinking", "Team work"],
   projects: [
     {
+      name: "Multi-agent RAG for Emergency Response instruction",
+      description:
+        "Built a multi-agent Retrieval-Augmented Generation (RAG) system that answers questions related to Emergency Response using both internal knowledge and real-time web data. PDF documents are indexed in a FAISS vector store, enabling a first agent to retrieve relevant information and generate grounded responses. A second agent enriches the answers through web search, while a third agent combines both outputs into a more complete final response. The system was integrated with WhatsApp so users can ask questions and get responses directly through chat. Including a dashboard to monitor agent performance and inference cost.",
+      link: "",      skills: ["Python", "RAG", "fastMCP", "LLM (gpt-4o-mini)", "FAISS", "Nodejs", "Gradio"],
+    },  
+    {
       name: "Energy Production Prediction",
       description:
         "Built an end-to-end ML pipeline to predict energy production from multiple sources (solar, wind, hydro). Data is collected using Apache Airflow and used to train a prediction model. A Streamlit web interface allows users to submit queries, which are processed through a FastAPI service. The API either generates predictions from the trained model or retrieves historical predictions from a PostgreSQL database. Grafana monitors data quality issues and sends alerts to a Microsoft Teams channel.",
