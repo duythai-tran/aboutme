@@ -14,43 +14,63 @@ export const siteConfig = {
   projects: [
     {
       name: "AI-empowered Geospatial Environmental Analysis Platform",
-      description:
-        "Developed an AI-powered web platform that enables government agencies, NGOs, researchers, and urban planners to assess the environmental impact of land-use changes over time and simulate what-if scenarios to evaluate the effects of future land-use decisions. Built on a geospatial analytics pipeline integrating satellite imagery from Google Earth Engine, InVEST ecosystem service models, Dynamic World land-cover classification, and CesiumJS for 3D Earth visualization to estimate carbon storage, urban cooling, and stormwater retention. Implemented frontend features using React and TypeScript, including an interactive scenario editor, historical analysis caching with IndexedDB, and automated PDF report generation with satellite imagery overlays.",
+      bullets: [
+        "Developed an AI-powered web platform that enables government agencies, NGOs, researchers, and urban planners to assess the environmental impact of land-use changes over time and simulate what-if scenarios to evaluate future land-use decisions.",
+        "Built a geospatial analytics pipeline integrating satellite imagery from Google Earth Engine, InVEST ecosystem service models, Dynamic World land-cover classification, and CesiumJS for 3D Earth visualization to estimate carbon storage, urban cooling, and stormwater retention.",
+        "Implemented frontend features using React and TypeScript, including an interactive scenario editor, historical analysis caching with IndexedDB, and automated PDF report generation with satellite imagery overlays.",
+      ],
       link: "",
       skills: ["React", "TypeScript", "Google Earth Engine", "InVEST", "Dynamic World", "CesiumJS", "IndexedDB"],
     },
     {
       name: "Cloud-based Smart Hospital Monitoring System",
-      description:
-        "Developed a cloud-based healthcare analytics platform for monitoring patient vital signs from wearable IoT devices, including operational dashboards that monitor and detect anomalies in real time. Built an end-to-end data pipeline on AWS using API Gateway, Lambda, an S3 Medallion Architecture (Bronze/Silver/Gold), Glue ETL, Step Functions, Athena, and Grafana. Simulated IoT telemetry with Python using Synthea synthetic patient data.",
+      bullets: [
+        "Developed a cloud-based healthcare analytics platform for monitoring patient vital signs from wearable IoT devices, including operational dashboards that monitor and detect anomalies in real time.",
+        "Built an end-to-end data pipeline on AWS using API Gateway, Lambda, an S3 Medallion Architecture (Bronze/Silver/Gold), Glue ETL, Step Functions, Athena, and Grafana.",
+        "Simulated IoT telemetry with Python using Synthea synthetic patient data.",
+      ],
       link: "",
       skills: ["AWS", "Lambda", "S3", "Glue", "Step Functions", "Athena", "Grafana", "Python"],
     },
     {
       name: "Real-Time Book Recommendation System (Amazon Reviews)",
-      description:
-        "Built an end-to-end recommendation pipeline that recommends books for different user types (guest, newly signed up, existing users) of an online book-selling website. The pipeline uses PyTorch MF-BPR, Two-Tower Retrieval, FAISS candidate search, and LightGBM LambdaRank re-ranking with 12 engineered features. Implemented data preprocessing, time-based train/validation/test split, baseline evaluation (Random/Popularity), and retrieval/ranking metrics (Recall@K, NDCG). Deployed a real-time recommendation service using FastAPI, PostgreSQL, Streamlit, and Docker.",
+      bullets: [
+        "Built an end-to-end recommendation pipeline that recommends books for different user types (guest, newly signed up, existing users) of an online book-selling website, using PyTorch MF-BPR, Two-Tower Retrieval, FAISS candidate search, and LightGBM LambdaRank re-ranking with 12 engineered features.",
+        "Implemented data preprocessing, time-based train/validation/test split, baseline evaluation (Random/Popularity), and retrieval/ranking metrics (Recall@K, NDCG).",
+        "Deployed a real-time recommendation service using FastAPI, PostgreSQL, Streamlit, and Docker, supporting personalized recommendations, similar items, and user interaction logging.",
+      ],
       link: "",
       skills: ["PyTorch", "FAISS", "LightGBM", "FastAPI", "PostgreSQL", "Streamlit", "Docker"],
     },
     {
       name: "Multi-agent RAG for Emergency Response Instructions",
-      description:
-        "Built a multi-agent Retrieval-Augmented Generation (RAG) system, a chatbot that answers questions related to Emergency Response using both internal knowledge and real-time web data. PDF documents are indexed in a FAISS vector store, enabling a first agent to retrieve relevant information and generate grounded responses. A second agent enriches the answers through web search, while a third agent combines both outputs into a more complete final response. The system was integrated with WhatsApp so users can ask questions and get responses directly through chat, including a dashboard to monitor agent performance and inference cost.",
+      bullets: [
+        "Built a multi-agent Retrieval-Augmented Generation (RAG) system, a chatbot that answers questions related to Emergency Response using both internal knowledge and real-time web data.",
+        "PDF documents are indexed in a FAISS vector store, enabling a first agent to retrieve relevant information and generate grounded responses. A second agent enriches the answers through web search, while a third agent combines both outputs into a more complete final response.",
+        "Integrated the system with WhatsApp so users can ask questions and get responses directly through chat, with a dashboard to monitor agent performance and inference cost.",
+      ],
       link: "",
       skills: ["Python", "RAG", "fastMCP", "LLM", "FAISS", "Nodejs", "Gradio"],
     },
     {
       name: "Find Best Route",
-      description:
-        "Built a cloud-based route optimization system on AWS that recommends optimal paths based on distance and real-time traffic conditions. Simulated traffic congestion and streamed data to a traffic API backed by DynamoDB for storage and retrieval. Developed a web interface enabling users to visualize maps, monitor traffic, select origin/destination, and receive optimal routes. Containerized the entire system and implemented CI/CD pipelines in GitLab to automate deployment to AWS.",
+      bullets: [
+        "Built a cloud-based route optimization system on AWS that recommends optimal paths based on distance and real-time traffic conditions.",
+        "Simulated traffic congestion and streamed data to a traffic API backed by DynamoDB for storage and retrieval.",
+        "Developed a web interface enabling users to visualize maps, monitor traffic, select origin/destination, and receive optimal routes.",
+        "Containerized the entire system and implemented CI/CD pipelines in GitLab to automate deployment to AWS.",
+      ],
       link: "",
       skills: ["AWS", "ECS", "ECR", "Cognito", "ALB", "GitLab", "Python", "OSRM"],
     },
     {
       name: "Energy Production Forecasting MLOps Platform",
-      description:
-        "Developed an end-to-end MLOps platform for renewable energy production forecasting, automating the complete machine learning lifecycle from data ingestion and validation to model deployment, monitoring, and retraining. Data is auto-ingested, validated, and split using Apache Airflow, with alerts sent to Microsoft Teams for data quality issues in real time. A Streamlit interface and FastAPI serving API support batch prediction, model hot-swapping, and version management through MLflow. Automated weekly retraining with Random Forest and MLflow Model Registry promotes new models based on RMSLE without downtime. Production monitoring includes daily data drift detection, PostgreSQL metrics storage, and Grafana dashboards, all containerized with Docker Compose and CI/CD via GitHub Actions.",
+      bullets: [
+        "Developed an end-to-end MLOps platform for renewable energy production forecasting, automating the complete machine learning lifecycle from data ingestion and validation to model deployment, monitoring, and retraining.",
+        "Data is auto-ingested, validated, and split using Apache Airflow, with alerts sent to Microsoft Teams for data quality issues in real time. A Streamlit interface and FastAPI serving API support batch prediction, model hot-swapping, and version management through MLflow.",
+        "Automated weekly retraining with Random Forest and MLflow Model Registry, promoting new models based on RMSLE without service downtime.",
+        "Implemented production monitoring with daily data drift detection, PostgreSQL metrics storage, and Grafana dashboards, all containerized with Docker Compose and CI/CD via GitHub Actions.",
+      ],
       link: "",
       skills: ["Python", "Apache Airflow", "MLflow", "FastAPI", "Streamlit", "PostgreSQL", "Grafana", "Docker"],
     },
